@@ -8,10 +8,7 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-/**
- * @author Moamen-pc
- *
- */
+
 
 	@Controller
 	@RequestMapping("/hello")
@@ -19,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 	 
 	   @RequestMapping(method = RequestMethod.GET)
 	   public String printHello(ModelMap model) {
-	      model.addAttribute("message", "Hello Spring MVC Framework!");
+	      model.addAttribute("message", "Our Questionnaire System");
 
 	      return "hello";
 	   }
